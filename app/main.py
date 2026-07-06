@@ -23,4 +23,5 @@ def battle(knights_config: dict) -> dict:
     }
 
 
-print(battle(KNIGHTS))
+if __name__ == "__main__":
+    print(battle(KNIGHTS))
